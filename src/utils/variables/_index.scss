@@ -3,16 +3,16 @@
 
 $theme: light !default;
 
+// Utils - Variables
+
+@import "./utils-variables/spacing-variables";
+
 // Base - Variables
 
 @import "./base-variables/fonts-variables";
 @import "./base-variables/icons-variables";
 @import "./base-variables/images-variables";
 @import "./base-variables/typography-variables";
-
-// Utils - Variables
-
-@import "./utils-variables/spacing-variables";
 
 // Components - Variables
 
