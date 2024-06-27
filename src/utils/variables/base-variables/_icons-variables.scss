@@ -3,10 +3,9 @@
 
 // FONT FAMILIES - ICONS - BASE - VARIABLES --------------------------------- //
 
-$gi-icon-font-family: "gi", sans-serif;
+$gi-icon-font-name: "gi";
+$gi-icon-font-family: $gi-icon-font-name, sans-serif;
 $gi-icon-class-prefix: "gi-";
-
-$lt-icon-font-family: "lt-iconfont", sans-serif;
 
 
 // STATUS - ICONS - BASE - VARIABLES ---------------------------------------- //
