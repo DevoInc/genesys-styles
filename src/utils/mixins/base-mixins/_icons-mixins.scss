@@ -3,8 +3,8 @@
 
 // ICON FONT - ICONS - BASE - MIXINS ---------------------------------------- //
 
-@mixin icon-font($font: $icon-font) {
-  font-family: $font, sans-serif;
+@mixin icon-font($font-family: $gi-icon-font-family) {
+  font-family: $font-family, sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;

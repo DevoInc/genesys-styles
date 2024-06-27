@@ -76,8 +76,8 @@
       width: map-deep-get($select-size-map, md, arrow-width);
 
       &::before {
-        @include icon-font;
         @include field-control-typo($props: font-size);
+        @include icon-font;
         content: $gi-arrow_down_fat;
         font-weight: bold;
       }
