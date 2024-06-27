@@ -109,7 +109,7 @@
       background-color: map-deep-get($box-message-status-map, $status, bg-color);
 
       &::before {
-        content: icon-status($status);
+        @include icon-status($status);
         color: map-deep-get($box-message-status-map, $status, icon-color);
       }
     }
